@@ -1,0 +1,32 @@
+{
+    "seq": 0,
+    "type": "response",
+    "command": "fileReferences",
+    "request_seq": 1,
+    "success": true,
+    "body": {
+        "refs": [{
+            "file": "/Users/alexlaughnan/Code/tsserver-example/derp.ts",
+            "start": {
+                "line": 1,
+                "offset": 20
+            },
+            "end": {
+                "line": 1,
+                "offset": 29
+            },
+            "contextStart": {
+                "line": 1,
+                "offset": 1
+            },
+            "contextEnd": {
+                "line": 1,
+                "offset": 31
+            },
+            "lineText": "import { x } from './example';",
+            "isWriteAccess": false,
+            "isDefinition": false
+        }],
+        "symbolName": "\"/Users/alexlaughnan/Code/tsserver-example/example.ts\""
+    }
+}
